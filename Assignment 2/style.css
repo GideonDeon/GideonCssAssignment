@@ -1,0 +1,215 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(90, 90, 90);
+    font-family: sans-serif;
+}
+@media screen and (min-width: 1200px){
+    .box1{
+        width: 100%;
+        height: 18em;
+        background-color: white;
+        padding: 10px;
+        border-bottom: solid 4px grey;
+    }
+    .huck{
+        width: 25%;
+        height: 12em;
+        position: absolute;
+        left: 26%;
+        padding-top: 40px;
+    }
+    .huck>h1{
+        margin-bottom: 40px;
+    }
+    .blue{
+        color: rgb(3, 146, 146);
+    }
+    .box2{
+        position: relative;
+        top: 50px;
+        left: 25%;
+        width: 50%;
+        height: 13em;
+        background-color: white;
+        border-bottom: solid 4px grey;
+    }
+    .yellow{
+        display: block;
+        position: relative;
+        top: 5px ;
+        left: -5px;
+        background-color: rgb(255, 191, 0);
+        width: 20em;
+        height: 2em;
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: solid 2px rgb(204, 153, 0);
+        padding: 8px 10px 10px 10px;
+    }
+    .box2>p:nth-child(2){
+        padding: 0 20px 0 20px;
+    }
+    .box2>p:nth-child(3){
+        padding: 0 20px 20px 20px;
+    }
+    .box3{
+        display: none;
+    }
+}
+@media (min-width: 900px) and (max-width: 1199px){
+    .box1{
+        width: 100%;
+        height: 20em;
+        background-color: white;
+        padding: 10px;
+        border-bottom: solid 4px grey;
+    }
+    .huck{
+        width: 45%;
+        height: 14em;
+        position: absolute;
+        left: 26%;
+        padding-top: 40px;
+    }
+    .huck>h1{
+        margin-bottom: 40px;
+    }
+    .blue{
+        color: rgb(3, 146, 146);
+    }
+    .box2{
+        position: relative;
+        top: 50px;
+        left: 25%;
+        width: 50%;
+        height: 14.5em;
+        background-color: white;
+        border-bottom: solid 4px grey;
+    }
+    .yellow{
+        display: block;
+        position: relative;
+        top: 5px ;
+        left: -5px;
+        background-color: rgb(255, 191, 0);
+        width: 20em;
+        height: 2em;
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: solid 2px rgb(204, 153, 0);
+        padding: 8px 10px 10px 10px;
+    }
+    .box2>p:nth-child(2){
+        padding: 0 20px 0 20px;
+    }
+    .box2>p:nth-child(3){
+        padding: 0 20px 20px 20px;
+    }
+    .box3{
+        display: none;
+    }
+}
+@media (min-width: 600px) and (max-width: 899px){
+    .box1{
+        width: 100%;
+        height: 18em;
+        background-color: white;
+        padding: 20px;
+        border-bottom: solid 4px grey;
+    }
+    .huck{
+        width: 100%;
+        height: 12em;
+        padding-top: 40px;
+    }
+    .huck>h1{
+        margin-bottom: 40px;
+    }
+    .blue{
+        color: rgb(3, 146, 146);
+    }
+    .box2{
+        width: 100%;
+        height: 12em;
+        background-color: white;
+        border-bottom: solid 4px grey;
+        margin-top: 40px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+    .yellow{
+        display: block;
+        background-color: rgb(255, 191, 0);
+        width: 20em;
+        height: 2em;
+        font-weight: bolder;
+        border-bottom: solid 2px rgb(204, 153, 0);
+        padding: 8px 10px 10px 20px;
+    }
+    .box2>p:nth-child(2){
+        padding: 0 20px 0 20px;
+    }
+    .box2>p:nth-child(3){
+        padding: 0 20px 20px 20px;
+    }
+    .box3{
+        width: 100%;
+        height: 10em;
+        background-color: white;
+        margin-top: 40px;
+    }
+}
+@media (max-width: 599px) {
+    .box1{
+        width: 100%;
+        height: 18em;
+        background-color: white;
+        padding: 20px;
+        border-bottom: solid 4px grey;
+    }
+    .huck{
+        width: 100%;
+        height: 12em;
+        padding-top: 40px;
+    }
+    .huck>h1{
+        margin-bottom: 40px;
+    }
+    .blue{
+        color: rgb(3, 146, 146);
+    }
+    .box2{
+        width: 100%;
+        height: 18em;
+        background-color: white;
+        border-bottom: solid 4px grey;
+        margin-top: 40px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+    .yellow{
+        display: block;
+        background-color: rgb(255, 191, 0);
+        width: 20em;
+        height: 2em;
+        font-weight: bolder;
+        border-bottom: solid 2px rgb(204, 153, 0);
+        padding: 8px 10px 10px 20px;
+    }
+    .box2>p:nth-child(2){
+        padding: 0 20px 0 20px;
+    }
+    .box2>p:nth-child(3){
+        padding: 0 20px 20px 20px;
+    }
+    .box3{
+        width: 100%;
+        height: 5em;
+        background-color: white;
+        margin-top: 40px;
+    }
+}
